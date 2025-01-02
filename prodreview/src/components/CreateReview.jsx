@@ -85,7 +85,7 @@ function CreateReview() {
                         type="text"
                         className="form-control"
                         id="author"
-                        onChange={(e) => setauthor(e.target.value)}
+                        onChange={(e) => setAuthor(e.target.value)}
                         required
                     />
                 </div>
