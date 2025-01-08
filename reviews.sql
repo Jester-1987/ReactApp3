@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 02, 2025 at 09:39 AM
+-- Generation Time: Jan 08, 2025 at 01:43 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.1.17
 
@@ -36,6 +36,13 @@ CREATE TABLE `reviews` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `reviews`
+--
+
+INSERT INTO `reviews` (`id`, `product`, `author`, `review`, `publish_date`) VALUES
+(1, 'Coffee Cup', 'CoffeeLuver3435', 'Good Mug. Keeps contents warm. Doesn\'t leak. ⭐️⭐️⭐️⭐️⭐️', '2025-01-08 18:40:27');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -53,7 +60,7 @@ ALTER TABLE `reviews`
 -- AUTO_INCREMENT for table `reviews`
 --
 ALTER TABLE `reviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
